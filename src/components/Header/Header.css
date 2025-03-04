@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+header
+{
+    position: relative;
+    width: 100%;
+    background-position:center;
+    height: 100vh;
+}
+header #HeaderOverlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header .container 
+{   
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    align-items: center;
+}
+header video
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

@@ -1,0 +1,90 @@
+@media screen and (max-width:480px) {
+    #MainBottomCard
+    {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    #MainBottomCard #MainBottomMCard
+    {
+        display: none;
+        /* position: absolute;
+        width: 100%; */
+        /* z-index: -1; */
+    }
+    #MainBottomCard #MainBottomRCard 
+    {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        align-content: center;
+        z-index: 1;
+    }
+
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    #MainBottomCard
+    {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    #MainBottomCard #MainBottomMCard
+    {
+        display: none;
+        /* position: absolute;
+        width: 100%; */
+        /* z-index: -1; */
+    }
+    #MainBottomCard #MainBottomRCard 
+    {
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    #MainBottomCard
+    {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    #MainBottomCard #MainBottomMCard
+    {
+        display: none;
+        /* position: absolute;
+        width: 100%; */
+        /* z-index: -1; */
+    }
+    #MainBottomCard #MainBottomRCard 
+    {
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+
+}
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    #MainBottomCard
+    {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    #MainBottomCard #MainBottomMCard
+    {
+        display: none;
+        /* position: absolute;
+        width: 100%; */
+        /* z-index: -1; */
+    }
+    #MainBottomCard #MainBottomRCard 
+    {
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+
+}

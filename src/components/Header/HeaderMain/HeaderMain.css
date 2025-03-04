@@ -1,0 +1,81 @@
+#HeaderMain
+{
+    width: 100%;
+    height: 100%;
+}
+#HeaderMain .container
+{   
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+    height: 75vh;
+}
+#HeaderMain .container #HeaderMainTop
+{
+    padding: 200px 0px 100px 100px;
+    width: 100%;
+}
+#HeaderMain .container #HeaderMainTop h1
+{
+    font-size: 3rem;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "width" 100;
+}
+#HeaderMain .container #HeaderMainTop #HeaderMainPDiv
+{
+    cursor: pointer;
+    margin: 40px 0px;
+    background-color: #DA2924; /* To'q sariq rang */
+    color: white;
+    padding: 10px 20px;
+    width: 15%;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+#HeaderMainBottom 
+{
+    text-align: center;
+    width: 100%;
+}
+#HeaderMainBottom button
+{
+    color: white;
+    padding: 10px 20px;
+    background-color: transparent;
+    width: 20%;
+    border: 2px solid white;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    clip-path: polygon(20% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
+#HeaderMainBottom button #HeaderMainBottom_NavLink
+{
+    color: white;
+}
+#HeaderMainBottom button:hover
+{
+    cursor: pointer;
+}
+#HeaderMain #HeaderGradientOverlay
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: none;
+    height: 60px; /* Balansga qarab o‘zgartiring */
+    background: linear-gradient(to bottom, rgba(17, 16, 16, 0.822), rgba(255, 255, 255, 0));
+    pointer-events: none; /* Interaktiv emasligi uchun */
+}

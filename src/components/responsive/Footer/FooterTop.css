@@ -1,0 +1,195 @@
+@media screen and (max-width:480px) {
+    #FooterTop
+    {
+        width: 100%;
+    }
+    #FooterTop #FooterTopCards 
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+    #FooterTop #FooterTopCards #FooterTopLCard
+    {
+        width: 100%;
+        height: 10vh;
+        text-align: center;
+    }
+    #FooterTop #FooterTopCards #FooterTopLCard img
+    {
+        height: 100% !important;
+    }
+    #FooterTop #FooterTopCards #FooterTopMCard
+    {
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+    #FooterTop #FooterTopCards #FooterTopMCard #FooterTopMSCard h3
+    {
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+    }
+    #FooterTop #FooterTopCards #FooterTopMCard #FooterTopMSCard ul li a
+    {
+        font-size: 0.6rem;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard 
+    {
+        width: 100%;
+        margin-top: 5px;
+        text-align: center;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard h2
+    {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard input
+    {
+        width: 40%;
+        height: 30px;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard button
+    {
+        height: 30px;
+        font-size: 0.6rem;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    #FooterTop
+    {
+        width: 100%;
+    }
+    #FooterTop #FooterTopCards 
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+    #FooterTop #FooterTopCards #FooterTopLCard
+    {
+        width: 100%;
+        height: 15vh;
+        text-align: center;
+    }
+    #FooterTop #FooterTopCards #FooterTopLCard img
+    {
+        height: 100% !important;
+    }
+    #FooterTop #FooterTopCards #FooterTopMCard
+    {
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+    #FooterTop #FooterTopCards #FooterTopMCard #FooterTopMSCard h3
+    {
+        font-size: 1.4rem;
+        margin-bottom: 0px;
+    }
+    #FooterTop #FooterTopCards #FooterTopMCard #FooterTopMSCard ul li a
+    {
+        font-size: 0.8rem;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard 
+    {
+        width: 100%;
+        margin-top: 5px;
+        text-align: center;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard h2
+    {
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard input
+    {
+        width: 40%;
+        height: 30px;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard button
+    {
+        height: 30px;
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    #FooterTop
+    {
+        width: 100%;
+    }
+    #FooterTop #FooterTopCards 
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+    #FooterTop #FooterTopCards #FooterTopLCard
+    {
+        width: 100%;
+        height: 15vh;
+        text-align: center;
+    }
+    #FooterTop #FooterTopCards #FooterTopLCard img
+    {
+        height: 100% !important;
+    }
+    #FooterTop #FooterTopCards #FooterTopMCard
+    {
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+    #FooterTop #FooterTopCards #FooterTopMCard #FooterTopMSCard h3
+    {
+        font-size: 1.4rem;
+        margin-bottom: 0px;
+    }
+    #FooterTop #FooterTopCards #FooterTopMCard #FooterTopMSCard ul li a
+    {
+        font-size: 0.8rem;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard 
+    {
+        width: 100%;
+        margin-top: 5px;
+        text-align: center;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard h2
+    {
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard input
+    {
+        width: 40%;
+        height: 35px;
+    }
+    #FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard button
+    {
+        height: 35px;
+        font-size: 0.8rem;
+    }
+}
