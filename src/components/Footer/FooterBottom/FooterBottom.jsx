@@ -6,7 +6,7 @@ const FooterBottom = () => {
   return (
     <div id="FooterBottom">
       <div className="container">
-        <h3>{t(`footerLText`)}<a target="_blank" style={{color: "white", textDecoration: "underline" , fontWeight:600}} href="https://t.me/buxoro_tadbirkorlar_klubi">Buxoro Tadbirkorlar Klubi </a> .</h3>
+        <h3>{t(`footerLText`)}<a target="_blank" style={{color: "white", textDecoration: "underline" , fontWeight:600}} href="https://t.me/buxoro_tadbirkorlar_klubi" rel="noopener noreferrer">Buxoro Tadbirkorlar Klubi </a> .</h3>
         <p>{t(`footerRText`)}</p>
       </div>
     </div>
