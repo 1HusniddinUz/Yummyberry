@@ -1,0 +1,97 @@
+@media screen and (max-width:480px) 
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    main #MainTop
+    {
+        width: 100% ;
+    }
+    main #MainTop #MainTopCards #MainTopCCard
+    {
+        height: 50vh;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap ;
+        align-items: start ;
+    }
+    main #MainTop #MainTopCards:nth-child(1) 
+    {
+        background-position: bottom center;
+        object-fit: cover;
+        background-size: cover;
+        background-image: url(../../../photos/2.jpg);
+    }
+    main #MainTop #MainTopCards:nth-child(2) 
+    {
+        background-position: center;
+        background-image: url(../../../photos/1.jpg) !important;
+    }
+    main #MainTop #MainTopCards #MainTopCCard #MainTopCCard_Overlay
+    {
+        position: absolute;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.4);
+        height: 100%;
+        width: 100vh;
+    }
+    main #MainTop #MainTopCards #MainTopCCard > .MainTopLCard1
+    {
+        z-index: 1;
+        margin: 0;
+        padding: 0px 20px !important;
+        width: 100% !important ;
+        background-color: transparent !important;
+        color: white;
+    }
+    main #MainTop #MainTopCards #MainTopCCard  #MainTopRCard
+    {
+        display: none !important;
+    }
+
+    #MainTopCCard .MainTopLCard1 > h2
+    {
+        font-size: 2rem !important;
+    }
+    #MainTopCCard .MainTopLCard1 > p
+    {
+        color: white !important;
+    }
+    #MainTopCCard .MainTopLCard1 > a button 
+    {
+        text-align: center !important;
+        color: white !important;
+        border-bottom: 1px solid white !important;
+
+    }
+
+    /* * MAIN TOP LCARD1 END */
+
+/*  */
+
+    /* * MAIN TOP LCARD2 START */
+
+    main #MainTop #MainTopCards #MainTopCCard #MainTopRCard2
+    {
+        display: none;
+    }
+    main #MainTop #MainTopCards #MainTopCCard #MainTopLCard2
+    {
+        height: 50vh;
+        background-color: transparent !important;
+        z-index: 1;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+    main #MainTop #MainTopCards #MainTopCCard #MainTopLCard2 a button
+    {
+        text-align: center;
+    }
+
+}

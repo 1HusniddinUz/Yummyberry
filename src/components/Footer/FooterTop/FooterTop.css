@@ -1,0 +1,90 @@
+#FooterTop
+{
+    width: 100%;
+}
+#FooterTop #FooterTopCards
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+#FooterTop #FooterTopCards #FooterTopLCard
+{
+    width: 30%;
+}
+#FooterTop #FooterTopCards #FooterTopLCard img
+{
+    width: 100%;
+    height: 100%;
+}
+#FooterTop #FooterTopCards #FooterTopMCard
+{
+    width: 30%;
+    display: flex;
+}
+#FooterTop #FooterTopCards #FooterTopMCard #FooterTopMSCard
+{
+    width: 100%;
+}
+#FooterTop #FooterTopCards #FooterTopMCard #FooterTopMSCard h3
+{
+    color: white;
+    margin-bottom: 10px;
+}
+#FooterTop #FooterTopCards #FooterTopMCard #FooterTopMSCard ul li a
+{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 0.8rem;
+}
+#FooterTop #FooterTopCards #FooterTopRCard
+{
+    width: 30%;
+}
+#FooterTop #FooterTopCards #FooterTopRCard h2
+{
+    color: white;
+    margin-bottom: 10px;
+}
+#FooterTop #FooterTopCards #FooterTopRCard p
+{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 0.8rem;
+}
+#FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+#FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard input
+{
+    width: 40%;
+    padding: 7px 10px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#FooterTop #FooterTopCards #FooterTopRCard #FooterTopRSCard button
+{
+    cursor: pointer;
+    font-size: 0.8rem;
+    width: 15%;
+    padding: 7px 10px;
+    height: 35px;
+    border-radius: 100px;
+    border: none;
+    background-color: #122A2F;
+    color: white;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}

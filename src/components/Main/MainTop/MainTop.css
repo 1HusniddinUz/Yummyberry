@@ -1,0 +1,142 @@
+#MainTop
+{
+    width: 90%;
+    margin: 0 auto;
+}
+#MainTop #MainTopCards
+{
+    width: 100%;
+}
+#MainTop #MainTopCards  #MainTopCCard
+{
+    height: 90vh;
+    margin: 0px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#MainTop #MainTopCards #MainTopCCard #MainTopLCard
+{
+    background-color: #F3F0E7;
+    height: 90%;
+    align-content: center;
+    padding: 0px 0px 0px 100px;
+    width: 50%;
+
+}
+#MainTop #MainTopCards #MainTopCCard #MainTopLCard h2
+{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "width" 100;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#MainTop #MainTopCards #MainTopCCard #MainTopLCard p
+{
+    color: black;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+#MainTop #MainTopCards #MainTopCCard #MainTopLCard button
+{
+    background-color: transparent;
+    cursor: pointer;
+    width: 150px;
+    text-align: start;
+    padding: 7px 10px 7px 0px;
+    border: none;
+    border-bottom: 1px solid #431112;
+}
+#MainTop #MainTopCards #MainTopCCard #MainTopLCard a button
+{
+    color: black;
+    text-transform: uppercase;
+    font-weight:500;
+}
+
+#MainTop #MainTopCards #MainTopCCard #MainTopRCard
+{
+    height: 90%;
+    width: 50%;
+    background-image: url("../../../photos/1.jpg");
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+/* * MAINTOP CARDS 2 START */
+
+#MainTop #MainTopCards #MainTopCCard #MainTopLCard2
+{
+    height: 90%;
+    align-content: center;
+    padding: 0px 0px 0px 100px;
+    width: 50%;
+    background: #431112 !important;
+}
+#MainTop #MainTopCards #MainTopCCard #MainTopLCard2 h2
+{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "width" 100;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#MainTop #MainTopCards #MainTopCCard #MainTopLCard2 p
+{
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+#MainTop #MainTopCards #MainTopCCard #MainTopLCard2 button
+{
+    cursor: pointer;
+    width: 150px;
+    text-align: start;
+    padding: 7px 10px 7px 0px;
+    border: none;
+    border-bottom: 1px solid red;
+}
+#MainTop #MainTopCards #MainTopCCard #MainTopLCard2 a button
+{
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid #F3F0E7;
+    text-transform: uppercase;
+    font-weight:500;
+}
+
+#MainTop #MainTopCards #MainTopCCard #MainTopRCard2
+{
+    height: 90%;
+    width: 50%;
+    background-image: url("../../../photos/1.jpg");
+    background-size: cover;
+    object-fit: cover;
+}
+
+/* * MAINTOP CARDS 2 END */
+
+#MainTop #MainTopCards #MainTopCCard #MainTopRCard #MainTopRCard_Overlay
+{
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+}

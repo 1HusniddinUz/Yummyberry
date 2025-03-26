@@ -1,0 +1,69 @@
+
+#MainBottomCard 
+{
+    background: linear-gradient(to bottom, #091417 , #0F2226,  #122B30);
+    width: 100%;
+    height: 50vh;
+    left: 0;
+    display: flex; 
+    margin: 0px 0px 50px 0px;
+}
+#MainBottomCard  #MainBottomLCard
+{
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+}
+#MainBottomCard  #MainBottomMCard
+{
+    background-image: url("../../../photos/3.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    width: 33.3%;
+    text-align: center;
+    height: 100%;
+}
+#MainBottomCard #MainBottomMCard #MainBottomMCard_Overlay
+{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+}
+#MainBottomCard  #MainBottomMCard img
+{
+    height: 100%;
+}
+
+#MainBottomCard  #MainBottomRCard
+{
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+}
+#MainBottomCard  #MainBottomRCard h2
+{
+    color: white;
+    margin-bottom: 20px;
+}
+#MainBottomCard  #MainBottomRCard p
+{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+}
+#MainBottomCard  #MainBottomRCard  a button
+{
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    text-align: center;
+    background: transparent;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border: none;
+    border-bottom: 1px solid white;
+} 
